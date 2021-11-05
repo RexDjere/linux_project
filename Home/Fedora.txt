@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-08-31T14:39:11-04:00
+
+====== Fedora ======
+Created Tuesday 31 August 2021
+
+References:
+[[https://en.wikipedia.org/wiki/Fedora_(operating_system)|[ref 1]]]	https://en.wikipedia.org/wiki/Fedora_(operating_system)
+
+What is Fedora?
+Fedora is  +Linux_distribution developed by the community-supported +Fedora_Project which is sponsored primarily by +Red_Hat, a subsidiary of +IBM , with additioanl support from other companies.	[[https://en.wikipedia.org/wiki/Fedora_(operating_system)|[ref 1]\]]
+
+What does Fedora contain?
+Fedora contains software distributed under various +free_and_open_source licenses and aims to be on the leading edge of free technologies.	[[https://en.wikipedia.org/wiki/Fedora_(operating_system)|[ref 1]]]
+
+For what software is Fedora an upstream source?
+Fedora is the +upstream source for the commercial [[+Red_Hat_Enterprise_Linux]] distribution and for [[+CentOS]] .	[[https://en.wikipedia.org/wiki/Fedora_(operating_system)|[ref 1]]]
+
+From was software was Fedora forked?
+Fedora is a fork of Red Hat Linux since RHL was discontinued in 2003.	[[https://en.wikipedia.org/wiki/Fedora_(operating_system)|[ref 1]]]

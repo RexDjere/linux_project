@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-10-06T00:54:21-04:00
+
+====== API ======
+Created Wednesday 06 October 2021
+
+References:
+[[https://en.wikipedia.org/wiki/Linux_kernel_interfaces|[ref 1]]]	https://en.wikipedia.org/wiki/Linux_kernel_interfaces
+
+What is the Linux API?
+The Linux API is the kernel-user space API which allows programs in user space to access system resources and services in the Linux kernel.	[[https://en.wikipedia.org/wiki/Linux_kernel_interfaces|[ref 1]]]
+
+What is the Linux API composed of?	[[https://en.wikipedia.org/wiki/Linux_kernel_interfaces|[ref 1]]]
+It is composed out of:
+* the [[+System_Call_Interface]] of the Linux kernel
+* the subroutines in the [[+GNU_C_Library]] (glibc)
+
+What is the focus of the Linux API?
+* to provide the usable features of the specifications defined in [[+POSIX]]	[[https://en.wikipedia.org/wiki/Linux_kernel_interfaces|[ref 1]]]
+
+How does the Linux API maintain stability?
+Through a policy of not introducing breaking changes.	[[https://en.wikipedia.org/wiki/Linux_kernel_interfaces|[ref 1]]]
+
+
+
+

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-22T01:25:15-04:00
+
+====== Linus Torvalds ======
+Created Wednesday 22 September 2021
+
+References:
+[[https://en.wikipedia.org/wiki/Linus_Torvalds|[ref 1]]]	https://en.wikipedia.org/wiki/Linus_Torvalds
+
+Who is Linus Torvalds?
+Linus Benedict Torvalds (born December 28, 1969) is a Finnish-American software engineer
+who is the creator and, historically, the main developer of the Linux kernel.	[[https://en.wikipedia.org/wiki/Linus_Torvalds|[ref 1]]]

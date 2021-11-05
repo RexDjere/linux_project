@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-10-12T08:40:23-04:00
+
+====== cifs ======
+Created Tuesday 12 October 2021
+
+References:
+[[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/performance_tuning_guide/s-cifs|[ref 1]]]	https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/performance_tuning_guide/s-cifs
+
+What does CIFS stand for?
+Common Internet File System	[[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/performance_tuning_guide/s-cifs|[ref 1]]]
+
+What is CIFS and implementation of?
+The Server Message Block (SMB) protocol	[[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/performance_tuning_guide/s-cifs|[ref 1]]]
+
+What is CIFS used for?
+To share file systems, printers, or serial ports over a network	[[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/performance_tuning_guide/s-cifs|[ref 1]]]
+
+What sharing does CIFS notably allow?
+Notably, CIFS allows sharing files between Linux and Windows platforms regardless of version. [[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/performance_tuning_guide/s-cifs|[ref 1]]]

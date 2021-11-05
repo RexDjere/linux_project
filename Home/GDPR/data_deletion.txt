@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-20T18:11:00-04:00
+
+====== data deletion ======
+Created Monday 20 September 2021
+
+References:
+[[https://www.geeksforgeeks.org/tools-to-securely-delete-files-from-linux/#:~:text=The%20Linux%20wipe%20command%20allows,nearly%20impossible%20to%20be%20recovered.|[ref 1]]]	https://www.geeksforgeeks.org/tools-to-securely-delete-files-from-linux/#:~:text=The%20Linux%20wipe%20command%20allows,nearly%20impossible%20to%20be%20recovered
+
+What are some tools to delete files on Linux	[[https://www.geeksforgeeks.org/tools-to-securely-delete-files-from-linux/#:~:text=The%20Linux%20wipe%20command%20allows,nearly%20impossible%20to%20be%20recovered.|[ref 1]]]
+[[+rm]]
+[[+shred]]
+[[+secure-delete]]
+[[+wipe]]
+[[+dd]]

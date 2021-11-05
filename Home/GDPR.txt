@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-20T17:53:28-04:00
+
+====== GDPR ======
+Created Monday 20 September 2021
+
+References:
+[[https://resources.infosecinstitute.com/topic/what-do-linux-system-administrators-need-to-know-about-the-gdpr/|[ref 1]]]	https://resources.infosecinstitute.com/topic/what-do-linux-system-administrators-need-to-know-about-the-gdpr/
+
+
+What are steps that a Linux system administrator can take to comply with the GDPR?	[[https://resources.infosecinstitute.com/topic/what-do-linux-system-administrators-need-to-know-about-the-gdpr/|[ref 1]]]
+[[+security_scanning]]
+[[+logging]]
+[[+network_filters]]
+[[+firewalls]]
+[[+manage_software]]
+[[+data_deletion]]
+[[+strong_passwords]]
+
+
+

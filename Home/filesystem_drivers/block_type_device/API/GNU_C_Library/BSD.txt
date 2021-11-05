@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-10-07T10:56:34-04:00
+
+====== BSD ======
+Created Thursday 07 October 2021
+
+References:
+[[https://en.wikipedia.org/wiki/Berkeley_Software_Distribution|[ref 1]]]	https://en.wikipedia.org/wiki/Berkeley_Software_Distribution
+
+What does BSD stand for?
+Berkeley Software Distribution.	[[https://en.wikipedia.org/wiki/Berkeley_Software_Distribution|[ref 1]]]
+
+What is BSD?	[[https://en.wikipedia.org/wiki/Berkeley_Software_Distribution|[ref 1]]]
+* discontinued
+* operating system
+* based on [[+Research_Unix]]
+* developed and distributed by [[+Computer_Systems_Research_Group]] (CRSG) at the [[+University_of_California_Berkeley]] .
+
+What are some of the descendants of BSD?
+[[+FreeBSD]]
+[[+OpenBSD]]
+[[+NetBSD]]
+[[+DragonFly_BSD]]
+
+

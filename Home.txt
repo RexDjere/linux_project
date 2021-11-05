@@ -1,0 +1,71 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-08-27T01:52:47-04:00
+
+====== Home ======
+Created Friday 27 August 2021
+
+References:
+[[https://en.wikipedia.org/wiki/Linux|[ref 1]]]	https://en.wikipedia.org/wiki/Linux
+[[https://tldp.org/LDP/sag/html/kernel-parts.html|[ref 2]]]	https://tldp.org/LDP/sag/html/kernel-parts.html
+
+What is Linux?
+Linux is a family of +open_source +Unix_like +operating_systems based on the +Linux_kernel, and [[+operating_system_kernel]] first released on September  17, 1991, by [[+Linus_Torvalds]] . 	[[https://en.wikipedia.org/wiki/Linux|[ref 1]]]
+
+Who provides many of the libraries for Linux?
+Many of the libraries for Linux are provided by the [[+GNU_Project]] . 	[[https://en.wikipedia.org/wiki/Linux|[ref 1]]]
+
+Name some popular Linux distributions. [[https://en.wikipedia.org/wiki/Linux|[ref 1]]]
+[[+Debian]]
+[[+Fedora]]
+[[+Ubuntu]]
+
+What percentage of all cloud infrastructure is powered by Linux?
+90% [[https://en.wikipedia.org/wiki/Linux|[ref 1]]]
+
+What percentage of global smartphones are Linux-based?
+74% [[https://en.wikipedia.org/wiki/Linux|[ref 1]]]
+
+What operating system was the precursor to Linux?
+[[+Unix]]	[[https://en.wikipedia.org/wiki/Linux|[ref 1]]]
+
+Describe Linux commands.
+[[+linux_commands]]
+
+How can a Linux system administrator ensure compliance with the GDPR?
+[[+GDPR]]
+
+What are the parts of the Linux kernel?	[[https://tldp.org/LDP/sag/html/kernel-parts.html|[ref 2]]]
+[[+process_management]]
+[[+memory_management]]
+[[+hardware_device_drivers]]
+[[+filesystem_drivers]]
+[[+network_management]]
+
+How does the Linux kernel communicate with user level programs?	[[https://tldp.org/LDP/sag/html/kernel-parts.html|[ref 2]]]
+[[+system_call_interface]]
+
+what 4 the four downstreams services connected to the system call interface?
+[[+virtual_filesystem_management]]
+[[+memory_manager]]
+[[+process_manager]]
+[[+abstract_network_services_sockets]]
+
+What is a Linux Cluster?
+[[+Linux_Cluster]]
+
+What is chmod?
+[[+chmod]]
+
+
+
+
+
+
+
+
+
+
+
+
+

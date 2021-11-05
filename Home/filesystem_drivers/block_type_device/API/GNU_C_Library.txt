@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-10-06T23:29:51-04:00
+
+====== GNU C Library ======
+Created Wednesday 06 October 2021
+
+References:
+[[https://www.gnu.org/software/libc/|[ref 1]]]	https://www.gnu.org/software/libc/
+
+What is glibc?
+The GNU C Library project provides the core libraries for  the GNU system and GNU/Linux systems, as well as many other systems that use Linux as the kernel.	[[https://www.gnu.org/software/libc/|[ref 1]]]
+
+What are some critical APIs provided by glibc?	[[https://www.gnu.org/software/libc/|[ref 1]]]
+[[+ISO_C11]]
+[[+POSIX_dot_1_2008]]
+[[+BSD]]
+[[+OS_specific_APIs]]
+
+What foundational facilities are provides by the glibc APIs?	[[https://www.gnu.org/software/libc/|[ref 1]]]
+[[+open]]
+[[+read]]
+[[+write]]
+[[+malloc]]
+[[+printf]]
+[[+getaddrinfo]]
+[[+dlopen]]
+[[+pthread_create]]
+[[+crypt]]
+[[+login]]
+[[+exit]]
+
+What were the design goals of the GNU C Library?	[[https://www.gnu.org/software/libc/|[ref 1]]]
+* backwards compatibility
+* portability
+* high performance
+
+
+
+

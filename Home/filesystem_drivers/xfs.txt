@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-10-07T11:05:29-04:00
+
+====== xfs ======
+Created Thursday 07 October 2021
+
+References:
+[[https://en.wikipedia.org/wiki/XFS|[ref 1]]]	https://en.wikipedia.org/wiki/XFS
+
+What is XFS?	[[https://en.wikipedia.org/wiki/XFS|[ref 1]]]
+* a [[+journaling_file_system]]
+* 64-bit
+* created by [[+Silicon_Graphics_Inc]] (SG!) in 1993
+
+
+

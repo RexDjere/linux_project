@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-10-22T10:46:17-04:00
+
+====== inode ======
+Created Friday 22 October 2021
+
+References:
+[[https://www.youtube.com/watch?v=6KjMlm8hhFA|[ref 1]]]	https://www.youtube.com/watch?v=6KjMlm8hhFA
+[[https://www.youtube.com/watch?v=tMVj22EWg6A|[ref 2]]]	https://www.youtube.com/watch?v=tMVj22EWg6A
+
+How do you list inode pairs (Inode + filename)?
+ls -i
+
+What is the format of an inode pair?	[[https://www.youtube.com/watch?v=6KjMlm8hhFA|[ref 1]]]
+48196790	videos
+
+48196790 = inode number
+videos = folder name
+
+What is a popular system file format?
+The extended format.	[[https://www.youtube.com/watch?v=tMVj22EWg6A|[ref 2]]]
+
+Each file on the disk has????
+Each file on the disk has an inode associated with it.	[[https://www.youtube.com/watch?v=tMVj22EWg6A|[ref 2]]]
+
+An inode is???
+Each inode is fixed length.	[[https://www.youtube.com/watch?v=tMVj22EWg6A|[ref 2]]]
+
+Where is file metadata contained?
+In the associated inode.	[[https://www.youtube.com/watch?v=tMVj22EWg6A|[ref 2]]]
+
+How many data blocks does an inode store?
+15 data block addresses or pointers.	[[https://www.youtube.com/watch?v=tMVj22EWg6A|[ref 2]]]
+
+
+
+
+
+
+

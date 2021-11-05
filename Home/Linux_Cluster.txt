@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-22T19:35:58-04:00
+
+====== Linux Cluster ======
+Created Wednesday 22 September 2021
+
+References:
+[[https://www.linux.org/threads/linux-cluster-%E2%80%93-basics.35264/|[ref 1]]]	https://www.linux.org/threads/linux-cluster-%E2%80%93-basics.35264/
+
+What is a cluster?
+A cluster of computers is a group of systems acting as one for different purposes.	[[https://www.linux.org/threads/linux-cluster-%E2%80%93-basics.35264/|[ref 1]]]
+
+How are cluster types determined?
+Each type of cluster has a different purpose.	[[https://www.linux.org/threads/linux-cluster-%E2%80%93-basics.35264/|[ref 1]]]
+
+What are the 4 types of clusters?
+[[+High_Availability]]
+[[+Load_Balancing]]
+[[+Distributed]]
+[[+Parallel]]
+

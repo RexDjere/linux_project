@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-02T15:03:17-04:00
+
+====== operating system kernel ======
+Created Thursday 02 September 2021
+
+References:
+[[https://en.wikipedia.org/wiki/Kernel_(operating_system)|[ref 1]]]	https://en.wikipedia.org/wiki/Kernel_(operating_system)
+
+What is a kernel?
+The kernel is a computer program at the core of a computer's operating system; the kernel has complete control over everything in the system.	[[https://en.wikipedia.org/wiki/Kernel_(operating_system)|[ref 1]]]

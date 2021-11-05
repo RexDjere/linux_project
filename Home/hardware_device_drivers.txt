@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-11-03T06:20:08-04:00
+
+====== hardware device drivers ======
+Created Wednesday 03 November 2021
+
+References:
+[[https://lwn.net/Kernel/LDD3/|[ref 1]]]	https://lwn.net/Kernel/LDD3/
+
+Describe Linux device drivers.	[[https://lwn.net/Kernel/LDD3/|[ref 1]]]
+* special role in the Linux kernel.
+* are distinct "black boxes".
+* make a particular piece of hardware respond to well-defined interna; programming interface.
+* hide the details of how the device works.
+* map standardized calls to device-specific operations.

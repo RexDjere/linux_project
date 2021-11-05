@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-02T15:06:56-04:00
+
+====== Unix ======
+Created Thursday 02 September 2021
+
+References
+[[https://en.wikipedia.org/wiki/Unix|[ref 1]]]	https://en.wikipedia.org/wiki/Unix
+
+What is Unix?
+Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, 
+whose development started in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.
+
+What was the goal of Unix's creators?
+Unix was originally meant to be a convenient platform for programmers developing software
+to be run on it and on other systems, rather than for non-programmers.	[[https://en.wikipedia.org/wiki/Unix|[ref 1]]]

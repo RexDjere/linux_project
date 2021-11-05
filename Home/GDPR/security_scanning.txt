@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-20T18:00:33-04:00
+
+====== security scanning ======
+Created Monday 20 September 2021
+
+References:
+[[https://geekflare.com/linux-security-scanner/|[ref 1]]]	https://geekflare.com/linux-security-scanner/
+
+What are some forms of malware?	[[https://geekflare.com/linux-security-scanner/|[ref 1]]]
+[[+rootkits]]
+[[+viruses]]
+[[+ransomware]]
+
+What are some Linux security scanning tools?
+[[+lynis]]
+[[+chkrootkit]]
+[[+rkhunter]]
+[[+clamav]]
+[[+lmd]]
+[[+radare2]]
+[[+openvas]]
+[[+remnux]]
+[[+tiger]]
+[[+maltrail]]
+[[+yara]]

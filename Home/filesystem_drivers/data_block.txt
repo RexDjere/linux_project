@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-10-15T05:25:31-04:00
+
+====== data block ======
+Created Friday 15 October 2021
+
+References:
+[[https://web.cs.wpi.edu/~rek/DCS/D04/UnixFileSystems.html|[ref 1]]]	https://web.cs.wpi.edu/~rek/DCS/D04/UnixFileSystems.html
+
+How were physical disks divided in the original Unix file system?
+In the original Unix file system, Unix divided physical disks into logical units called partitions.	[[https://web.cs.wpi.edu/~rek/DCS/D04/UnixFileSystems.html|[ref 1]]]
+Each partition is a standalone file system.
+We will use the term "file system =" when referring to a single partition.
+
+Each filesystem contains what?	[[https://web.cs.wpi.edu/~rek/DCS/D04/UnixFileSystems.html|[ref 1]]]
+* a boot block
+* a super block
+* a linear array of inodes (short for "index nodes")
+* data blocks containing the actual contents of files
+
+What is an inode?
+An [[+inode]] is the "handle" to a file and contains the following information:	[[https://web.cs.wpi.edu/~rek/DCS/D04/UnixFileSystems.html|[ref 1]]]
+* file ownership indication
+* file type
+* file access permissions
+* time of last access
+* number of links to the file
+* pointers 
+* size
+
+
+
+
+

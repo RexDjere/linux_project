@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-20T18:05:25-04:00
+
+====== logging ======
+Created Monday 20 September 2021
+
+References:
+[[https://www.loggly.com/ultimate-guide/linux-logging-basics/|[ref 1]]]	https://www.loggly.com/ultimate-guide/linux-logging-basics/
+
+What do logs provide?
+Diagnostic information about your computer.	[[https://www.loggly.com/ultimate-guide/linux-logging-basics/|[ref 1]]]
+
+What are some items logged on a Linux computer?	[[https://www.loggly.com/ultimate-guide/linux-logging-basics/|[ref 1]]]
+[[+kernel_events]]
+[[+user_actions]]
+
+Where does Linus store logs	[[https://www.loggly.com/ultimate-guide/linux-logging-basics/|[ref 1]]]
+[[/var/log]]
+
+What logs are stored in [[/var/log]] ?	[[https://www.loggly.com/ultimate-guide/linux-logging-basics/|[ref 1]]]
+* logs from the OS itself
+* logs from services
+* logs from applications
+
+What are some important Linux system logs?
+To be added later from [[https://www.loggly.com/ultimate-guide/linux-logging-basics/|[ref 1]]]

@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-10-01T05:30:31-04:00
+
+====== block type device ======
+Created Friday 01 October 2021
+
+References:
+[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.]]
+
+What is a block device?
+Block devices are characterized by random access to data organized in fixed-size blocks.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+What are some examples of block devices?	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+[[+hard_drives]]
+[[+cd_rom_drives]]
+[[+ram_disks]]
+
+How does the speed of block devices compare to the speed of [[+character_devices]] ?
+The speed of block devices is generally much higher than the speed of character devices, and their performance is also important.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+Discuss the Linux kernel and block devices/character devices?
+This is why the Linux kernel handles differently these 2 types of devices (it uses a specialized [[+API]] )
+
+How complicated are block devices compared to character devices?
+Working with block devices is therefore more complicated than working with character devices.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+Contrast character devices and block devices.
+Character devices have a single current position, while block devices must be able to move to any position in the device to provide random access to data.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+How does the Linux kernel simplify working with block devices?
+To simplify working with block devices, the Linux kernel provides an entire subsystem call the [[+block_IO|block I/O]] (or block layer) subsystem.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+What is the smallest logical unit of addressing?
+From the kernel perspective, the smallest logical unit of addressing is the block.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+How does the kernel perform disk operations?
+Although the physical device can be addressed at sector level, the kernel performs all disk operations using blocks.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+What is a sector?
+Since the smallest unit of physical addressing is the sector, the size of the block must be a multiple of the size of the sector.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+Discuss block size.
+Additionally, the block size must be a power of 2 and can not exceed the size of a page.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+What are common block sizes?
+The size of the block may vary depending on the file system used, the most common values being 512 [[+bytes|bytes]], 1 [[+kilobytes|kilobytes]] and 4 kilobytes.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+What functions are used to register and unregister a block I/O device?
+To register a block I/O device, function [[+register_blkdev_function|register_blkdev()]] is used.
+To deregister a block I/O device, function [[+unregister_blkdev_function|unregister_blkdev()]] is used.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/block_device_drivers.html#:~:text=Block%20devices%20are%20characterized%20by,drives%2C%20RAM%20disks%2C%20etc.&text=To%20simplify%20work%20with%20block,(or%20block%20layer)%20subsystem.|[ref 1]]]
+
+

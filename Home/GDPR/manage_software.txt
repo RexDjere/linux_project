@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-20T18:35:01-04:00
+
+====== manage software ======
+Created Monday 20 September 2021
+
+References:
+[[https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux|[ref 1]]]	https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux
+
+What are some Linux package managaement systems?
+Later: [[https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux|[ref 1]]]

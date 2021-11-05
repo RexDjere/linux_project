@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-22T01:16:54-04:00
+
+====== network filters ======
+Created Wednesday 22 September 2021
+
+References:
+[[https://devarea.com/introduction-to-network-filters-linux/|[ref 1]]]	https://devarea.com/introduction-to-network-filters-linux/
+
+Where do Linux network filters live?
+In the Linux kernel.	[[https://devarea.com/introduction-to-network-filters-linux/|[ref 1]]]
+
+What does Linux network filtering allow you to do?
+Network filtering allows to filter and manipulate packets inside of a network stack.	[[https://devarea.com/introduction-to-network-filters-linux/|[ref 1]]]
+
+How else can a Linux network filter be designed?
+A network filter can be built as a Linux kernel module. It can then be loaded and unloaded dynamically.	[[https://devarea.com/introduction-to-network-filters-linux/|[ref 1]]]

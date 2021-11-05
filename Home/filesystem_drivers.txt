@@ -1,0 +1,77 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-29T13:30:28-04:00
+
+====== filesystem drivers ======
+Created Wednesday 29 September 2021
+
+References:
+[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]	https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html
+
+What are some key concepts of Linux file system drivers?	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
++inode
+[[+dentry]]
+[[+file]]
+[[+superblock]]
+[[+data_block]]
+
+What is a Virtual Filesystem (VFS)?
+The Virtual Filesystem (also known as VFS) is a component of the kernel that handles all system calls related to files and file systems.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+
+Describe VFS?
+VFS is a generic interface between the user and a particular file system.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+
+What is the purpose of VFS abstraction?
+This abstraction simplifies the implementation of file systems and provides easier integration of multiple file systems.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+
+Discuss VPS APIs?
+This way, the implementation of a file system is accomplished by using the API provides by the VFS,
+and the generic hardware and I/O subsystem communication parts are handled by VFS.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+
+Discuss file system groupings?
+From a functional point of view, file systems can be grouped into:	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+* [[+disk_file_systems]] :
+	* [[+ext3]]	
+	* [[+ext4]]
+	* [[+xfs]]
+	* [[+fat]]
+	* [[+ntfs]]
+* [[+network_file_systems]] :
+	* [[+nfs]]
+	* [[+smbfs]]
+	* [[+cifs]]
+	* [[+ncp]]
+* [[+virtual_filesystems]]
+	* [[+procfs]]
+	* [[+sysfs]]
+	* [[+sockfs]]
+	* [[+pipefs]]
+
+How does the Linux kernel use VFS?
+A Linux kernel instance will use VFS for the hierarchy (a tree) of directories and files.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+
+How is a file system added?
+A new file system will be added as a VFS subtree using the mount operation.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+
+How is a file system mounted?
+A file system is usually mounted from the environment for which it was built (from a [[+block_type_device]] , from [[+network]] , etc.)	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+
+How can VFS use a file?
+In particular, however, the VFS can use a normal file as a [[+virtual_block_device]] , so it is possible to mount disk file systems over normal files.	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+
+What is the basic idea of VFS?	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+* The basic idea of VFS is to provide a single file model that can represent files from any file system.	
+* The file system driver is responsible for bringing to the common denominator.
+* This way the kernel can create a single directory structure that contains the entire system.
+* There will be a file system that will be the root, the rest being mounted in its various directories.
+
+What is the general file system model?	[[https://linux-kernel-labs.github.io/refs/heads/master/labs/filesystems_part1.html|[ref 1]]]
+The general file system model, to which any implemented file system needs to be reduced, consists of several well-defined entities:
+	* [[+superblock]]
+	* +inode
+	* [[+file]]
+	* [[+dentry]]
+* These entities are file system metadata (they contain information about data or other metadata).
+
+
+

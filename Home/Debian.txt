@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-08-30T20:54:44-04:00
+
+====== Debian ======
+Created Monday 30 August 2021
+
+References:
+[[https://www.debian.org/social_contract|[ref 1]]]	https://www.debian.org/social_contract
+
+What are the contents of the Debian Social Contract? [[https://www.debian.org/social_contract|[ref 1]]]
+1. Debian will remain 100% free
+2. We will give back to the free software community
+3. We will not hide problems
+4. Our priorities are our users and free software
+5. Works that do not weet our free software standards

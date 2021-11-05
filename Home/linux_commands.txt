@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-01T14:28:55-04:00
+
+====== linux commands ======
+Created Wednesday 01 September 2021
+
+References:
+[[https://www.linux.org/threads/command-at.387/|[ref 1]]]	https://www.linux.org/threads/command-at.387/
+
+Alphabetical commands:
+[[+at]]
+[[+touch]]
+

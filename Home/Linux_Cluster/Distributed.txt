@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-23T11:19:47-04:00
+
+====== Distributed ======
+Created Thursday 23 September 2021
+
+References:
+[[https://www.informit.com/articles/article.aspx?p=25748&seqNum=4#:~:text=A%20distributed%20systems%20cluster%20is,service%20or%20application%20to%20clients.&text=It%20is%20defined%20as%20a,seamless%20access%20to%20a%20service.|[ref 1]]]	https://www.informit.com/articles/article.aspx?p=25748&seqNum=4#:~:text=A%20distributed%20systems%20cluster%20is,service%20or%20application%20to%20clients.&text=It%20is%20defined%20as%20a,seamless%20access%20to%20a%20service.
+[[https://www.linux.org/threads/linux-cluster-%E2%80%93-basics.35264/|[ref 2]]]	https://www.linux.org/threads/linux-cluster-%E2%80%93-basics.35264/
+
+What is another term for distributed cluster? 
+Distributed Systems Cluster	[[https://www.informit.com/articles/article.aspx?p=25748&seqNum=4#:~:text=A%20distributed%20systems%20cluster%20is,service%20or%20application%20to%20clients.&text=It%20is%20defined%20as%20a,seamless%20access%20to%20a%20service.|[ref 1]]]
+
+What is a Distributed Systems Cluster?
+A distributed systems cluster a a group of machines that are virtually or geographically separated,
+and that work together to provide the same service or application to clients.	[[https://www.informit.com/articles/article.aspx?p=25748&seqNum=4#:~:text=A%20distributed%20systems%20cluster%20is,service%20or%20application%20to%20clients.&text=It%20is%20defined%20as%20a,seamless%20access%20to%20a%20service.|[ref 1]]]

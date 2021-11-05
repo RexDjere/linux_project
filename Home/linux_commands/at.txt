@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-01T14:29:53-04:00
+
+====== at ======
+Created Wednesday 01 September 2021
+
+References:
+[[https://www.linux.org/threads/command-at.387/|[ref 1]]]	https://www.linux.org/threads/command-at.387/
+[[https://linuxize.com/post/at-command-in-linux/|[ref 2]]]	https://linuxize.com/post/at-command-in-linux/
+[[https://en.wikipedia.org/wiki/At_(command)|[ref 3]]]	https://en.wikipedia.org/wiki/At_(command)
+
+What is at used for?
+The at command is used to schedule tasks.	[[https://www.linux.org/threads/command-at.387/|[ref 1]]]
+
+Describe the at command.
+"at is a command-line utility that allows you to schedule commands to be executed at a particular time."	[[https://linuxize.com/post/at-command-in-linux/|[ref 2]]]
+
+How many times are jobs created with at executed?
+"Jobs created with at are executed only once."	[[https://linuxize.com/post/at-command-in-linux/|[ref 2]]]
+
+How would you install at on Debian and its derivatives?	[[https://linuxize.com/post/at-command-in-linux/|[ref 2]]]
+sudo apt update
+sudo apt install at
+
+How would you install at on Red Hat Linux-related OSs?	[[https://linuxize.com/post/at-command-in-linux/|[ref 2]]]
+sudo dnf install at
+
+Your system is Pop_OS. how would you use at to create a file named myfile.txt at 14:55 in your home directory?
+$ at 14:55
+at> cd ~
+at> touch myfile.txt
+CTRL+D
+
+How does Wikipedia describe the at command?
+In computing, at is a command in Unix-like operating systems, Microsoft Windows, and ReactOS, used to schedule commands to be executed once, at a particulat time in the future.
+
+

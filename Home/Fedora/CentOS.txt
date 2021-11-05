@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-01T02:51:34-04:00
+
+====== CentOS ======
+Created Wednesday 01 September 2021
+
+References:
+[[https://en.wikipedia.org/wiki/CentOS|[ref 1]]]	https://en.wikipedia.org/wiki/CentOS
+
+What is CentOS?
+The Community Enterprise Operating System.
+
+Describe it.
+CentOS is a Linux distribution that provides a free and open-source community-supported computing platform, functionally compatible with its upstream sourcce, [[Home:Fedora:Red Hat Enterprise Linux|Red Hat Enterprise Linux]] . 

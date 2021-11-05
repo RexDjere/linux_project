@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-22T14:13:07-04:00
+
+====== process management ======
+Created Wednesday 22 September 2021
+
+References:
+[[https://www.tecmint.com/linux-process-management/|[ref 1]]]	https://www.tecmint.com/linux-process-management/
+
+What is a process?	[[https://www.tecmint.com/linux-process-management/|[ref 1]]]
+* a program in execution
+* a running instance of a program
+
+What is a process made up of?
+* [[+program_instruction]]
+* [[+data_read_from_files]]
+* [[+other_programs]]
+* [[+input_from_a_system_user]]
+
+

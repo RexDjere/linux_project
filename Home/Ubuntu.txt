@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-02T15:05:20-04:00
+
+====== Ubuntu ======
+Created Thursday 02 September 2021
+
+References:
+[[https://en.wikipedia.org/wiki/Ubuntu|[ref 1]]]	https://en.wikipedia.org/wiki/Ubuntu
+
+What is Ubuntu?
+Ubuntu is a Linux distribution based on Debian, and composed mostly of free and open-source software.	[[https://en.wikipedia.org/wiki/Ubuntu|[ref 1]]]
+
+What does Ubuntu mean?	[[https://en.wikipedia.org/wiki/Ubuntu|[ref 1]]]
+Ubuntu is named after the Nguni philosophy of ubuntu, 
+which Canonical indicates means "humanity to others"
+with a connotation of "I am what I am because of who we all are".
+
+
+

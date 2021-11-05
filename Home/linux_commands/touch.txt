@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-09-02T15:01:10-04:00
+
+====== touch ======
+Created Thursday 02 September 2021
+
+References:
+[[https://en.wikipedia.org/wiki/Touch_(command)|[ref 1]]]	https://en.wikipedia.org/wiki/Touch_(command)
+
+What is the touch command?
+In computing, touch is a command used to update the access date and/or modification date of a computer file or directory.	[[https://en.wikipedia.org/wiki/Touch_(command)|[ref 1]]]
